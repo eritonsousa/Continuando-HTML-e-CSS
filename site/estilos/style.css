@@ -8,6 +8,10 @@
     font-family: 'Fjalla One', sans-serif;;
 }
 
+body {
+    background-color: #02122c;
+}
+
 header {
     background-color: #02122c;
 }
@@ -61,7 +65,7 @@ menu > ul > li > a:hover{
     background-color: #2273fdb7;
 }
 
-main {
+div#principal {
     position: relative;
     width: 100vw;
     height: 463px;
@@ -70,7 +74,7 @@ main {
     background-size: cover;
 }
 
-main > h1 {
+div > h1 {
     position: absolute;
     top: 75px;
     left: 50%;
@@ -84,7 +88,7 @@ main > h1 {
 
 }
 
-main > p > a {
+div > p > a {
     position: absolute;
     top: 350px;
     left: 50%;
@@ -98,7 +102,28 @@ main > p > a {
     text-decoration: none;
 }
 
-main > p > a:hover {
+div > p > a:hover {
     background-image: linear-gradient(#FD8932, #ffae00);
+}
+
+div#segunda > img#eu {
+    position: relative;
+    display: block;
+    right: 5%;
+    margin-top: 50px;
+    float: right;
+    width: 250px;
+}
+
+div#segunda > h4 {
+    position: absolute;
+    display: block;
+    top: 115%;
+    left: 20%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .8em;
+    padding: 15px;
 }
 
