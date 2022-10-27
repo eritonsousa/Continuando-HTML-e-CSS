@@ -73,12 +73,14 @@ main {
 main > h1 {
     position: absolute;
     top: 90px;
-    left: 40px;
+    left: 50%;
+    transform: translate(-50%);
     font-size: 3em;
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.623);
-    padding: 15px;
+    padding: 10px;
+    
 
 }
 
