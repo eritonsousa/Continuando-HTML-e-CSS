@@ -61,3 +61,10 @@ menu > ul > li > a {
 menu > ul > li > a:hover{
     background-color: #2273fdb7;
 }
+
+main {
+    width: 100vw;
+    height: 74.1vh;
+    background-image: url(../imagens/banner-mobile.jpg);
+    background-size: cover;
+}
