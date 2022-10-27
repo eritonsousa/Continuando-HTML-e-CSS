@@ -75,7 +75,7 @@ main > h1 {
     top: 90px;
     left: 40px;
     font-size: 3em;
-    text-align: justify;
+    text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.623);
     padding: 15px;
