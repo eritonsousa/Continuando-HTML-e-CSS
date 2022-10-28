@@ -72,6 +72,7 @@ div#principal {
     margin: auto;
     background-image: url(../imagens/banner-mobile.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 div > h1 {
@@ -132,7 +133,7 @@ div#segunda > h1 {
     display: block;
     top: 140%;
     left: 31%;
-    width: 500px;
+    width: 400px;
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
