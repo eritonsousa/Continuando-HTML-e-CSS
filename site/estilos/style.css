@@ -118,12 +118,25 @@ div#segunda > img#eu {
 div#segunda > h4 {
     position: absolute;
     display: block;
-    top: 115%;
-    left: 20%;
+    top: 122%;
+    left: 8%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(0, 0, 0, 0.514);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: .8em;
+    font-size: 1em;
+    padding: 15px;
+}
+
+div#segunda > h1 {
+    position: absolute;
+    display: block;
+    top: 140%;
+    left: 31%;
+    width: 500px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
     padding: 15px;
 }
 
